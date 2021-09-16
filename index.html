@@ -1,28 +1,95 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta charset="utf-8">
-		<title>Index</title>
-        <style>
-            
-        </style>
-		<script
-			id="sap-ui-bootstrap"
-			src="/resources/sap-ui-core.js"
-			data-sap-ui-theme="sap_bluecrystal"
-			data-sap-ui-modules="sap.m.library"
-			data-sap-ui-compatVersion="edge"
-			data-sap-ui-preload="async">
-		</script>
-		<script>
-			sap.ui.getCore().attachInit(function () {
-				new sap.m.Text({
-					text : "OpenUI5 is loaded successfully!"
-				}).placeAt("content");
-			});
-		</script>
-	</head>
-	<body class="sapUiBody" id="content">
-	</body>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghostie</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        .myHeader {
+            grid-area : banner;
+            background-color:rgb(41, 41, 41);
+            color: rgb(255, 31, 31);
+            font-family: 'Creepster', cursive;
+            font-size: 35px;
+            text-align: center;
+            padding-left: 6%;
+            padding-right: 6%;
+            display: grid;
+            place-content: center;
+        }
+
+        .myIndex {
+            font-family: 'Baloo 2', cursive;
+            background-color: rgb(41, 41, 41);
+            font-size: 20%;
+            color: rgb(255, 31, 31);
+            padding-top: 1px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-orientation: upright;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            justify-content: space-evenly;
+        }
+
+        h2 {
+            font-size: 35px;
+            font-style: oblique;
+        }
+
+        h3 {
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: normal;
+            padding-top: 0%;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: normal;
+            padding-top: 0%; 
+        }
+
+    </style>
+
+<script>
+
+</script>
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Code for banner  -->
+        <div class="myHeader">
+            <h1 id="myBanner">Welcome To The Realm Of Ghosts</h1>
+        </div>
+
+        <!-- Code for the Index panel -->
+        <div class="myIndex">
+            <div class="home">
+                <h4>home</h4>
+            </div>
+            <div class= "info">
+                <h4>information</h4>
+            </div>
+            <div class= "stories">
+                <h4>other stories</h4>
+            </div>
+            <div class= "haunts">
+                <h4>ghost haunts</h4>
+            </div>
+            <div class= "faq">
+                <h4>faq and contacts</h4>
+            </div>
+        </div>
+</body>
