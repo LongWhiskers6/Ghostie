@@ -30,16 +30,66 @@
         .myIndex {
             font-family: 'Baloo 2', cursive;
             background-color: rgb(41, 41, 41);
-            font-size: 20%;
-            color: rgb(255, 31, 31);
-            padding-top: 1px;
-            padding-bottom: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-            text-orientation: upright;
+            font-size: 30%;
+            padding-bottom: -20px;
+            height: 33em;
+            display: flex;
+            place-content: center;
+        }
+
+        .myIndex > div {
+            margin: 3%;
+            padding: 1.8%;
+        }
+
+        .home {
+            background-image: url("bin.jpg");
+            object-fit: scale-down;
             display: grid;
-            grid-template-columns: auto auto auto auto auto;
-            justify-content: space-evenly;
+            place-content: center;
+            width: 12em;
+            height: 8em;
+            -webkit-text-stroke: .8px rgb(0, 0, 0);
+        }
+
+        .info {
+            background-image: url("hand.jpg");
+            object-fit: fill;
+            display: grid;
+            place-content: center;
+            width: 25em;
+            height: 8em;
+            -webkit-text-stroke: 1.3px black;
+        }
+
+        .stories {
+            background-image: url("bones.jpg");
+            object-fit: fill;
+            display: grid;
+            place-content: center;
+            width: 30em;
+            height: 8em;
+            -webkit-text-stroke: 1.3px black;
+        }
+
+        .haunts {
+            background-image: url("eye.jpg");
+            object-fit: fill;
+            display: grid;
+            place-content: center;
+            width: 28em;
+            height: 8em;
+            -webkit-text-stroke: 1.3px black;
+        }
+
+        .faq {
+            background-image: url("dolls.jpg");
+            object-fit: fill;
+            display: grid;
+            place-content: center;
+            width: 30.5em;
+            height: 8em;
+            -webkit-text-stroke: 1.3px black;
         }
 
         h2 {
