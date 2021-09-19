@@ -49,7 +49,6 @@
             place-content: center;
             width: 12em;
             height: 8em;
-            -webkit-text-stroke: .8px rgb(0, 0, 0);
         }
 
         .info {
@@ -59,7 +58,7 @@
             place-content: center;
             width: 25em;
             height: 8em;
-            -webkit-text-stroke: 1.3px black;
+
         }
 
         .stories {
@@ -69,7 +68,6 @@
             place-content: center;
             width: 30em;
             height: 8em;
-            -webkit-text-stroke: 1.3px black;
         }
 
         .haunts {
@@ -79,7 +77,6 @@
             place-content: center;
             width: 28em;
             height: 8em;
-            -webkit-text-stroke: 1.3px black;
         }
 
         .faq {
@@ -87,9 +84,8 @@
             object-fit: fill;
             display: grid;
             place-content: center;
-            width: 30.5em;
+            width: 32em;
             height: 8em;
-            -webkit-text-stroke: 1.3px black;
         }
 
         h2 {
@@ -108,6 +104,12 @@
             font-size: 20px;
             font-weight: normal;
             padding-top: 0%; 
+            -webkit-text-stroke: 1.3px black;
+        }
+
+        h4:hover {
+            -webkit-text-stroke: 1.3px whitesmoke;
+            border: 3px solid rgb(255, 255, 255);
         }
 
     </style>
@@ -127,19 +129,19 @@
         <!-- Code for the Index panel -->
         <div class="myIndex">
             <div class="home">
-                <h4>home</h4>
+                <h4><a href="http://127.0.0.1:5500/index.html">home</a></h4>
             </div>
             <div class= "info">
-                <h4>information</h4>
+                <h4><a href="http://127.0.0.1:5500/info.html">information</a></h4>
             </div>
             <div class= "stories">
-                <h4>other stories</h4>
+                <h4><a href="http://127.0.0.1:5500/stories.html">other stories</a></h4>
             </div>
             <div class= "haunts">
-                <h4>ghost haunts</h4>
+                <h4><a href="http://127.0.0.1:5500/haunts.html">ghost haunts</a></h4>
             </div>
             <div class= "faq">
-                <h4>faq and contacts</h4>
+                <h4><a href="http://127.0.0.1:5500/faq.html">faq and contacts</a></h4>
             </div>
         </div>
 </body>
