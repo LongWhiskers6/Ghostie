@@ -12,10 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
 
     <style>
         .myHeader {
-            grid-area : banner;
             background-color:rgb(41, 41, 41);
             color: rgb(255, 31, 31);
             font-family: 'Creepster', cursive;
@@ -23,11 +25,13 @@
             text-align: center;
             padding-left: 6%;
             padding-right: 6%;
+            padding-top: .8em;
+            height: 3em;
             display: grid;
             place-content: center;
         }
 
-        .myBody {
+        .myFAQ {
             background-color: rgb(60, 60, 60);
             color: rgb(252, 252, 252);
             padding-top: 10px;
@@ -37,6 +41,25 @@
             font-family:'Times New Roman', Times, serif;
             font-size: 20px;
             align-content: center;
+        }
+
+        .myContact {
+            background-color: rgb(60, 60, 60);
+            color: rgb(252, 252, 252);
+            padding-left: 2%;
+            padding-right: 2%;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-bottom: -5px;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+            align-content: center;
+            border: 6px rgb(255, 31, 31);
+            border-style: double;
+        }
+
+        .margin {
+            background-color: rgb(60, 60, 60);
         }
 
         .myIndex {
@@ -105,24 +128,26 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 60%;
+            width: 40%;
             background-color: rgb(60, 60, 60);
-            padding-left: 20%;
-            padding-right: 20%;
+            padding-left: 30%;
+            padding-right: 30%;
             padding-bottom: 30px;
             padding-top: 20px;
         }
 
         h2 {
             font-size: 35px;
-            font-style: oblique;
+            font-family: 'Fleur De Leah';
+            font-weight: lighter;
+            padding-top: .5em;
         }
 
         h3 {
             font-family:'Times New Roman', Times, serif;
             font-size: 20px;
             font-weight: normal;
-            padding-top: 0%;
+            padding-bottom: 2em;
         }
 
         h4 {
@@ -135,6 +160,36 @@
         h4:hover {
             -webkit-text-stroke: 1.3px whitesmoke;
             border: 3px solid rgb(255, 255, 255);
+        }
+
+        z:hover {
+            border: 3px double rgb(41, 41, 41) !important;
+            color: rgb(255, 31, 31);
+            -webkit-text-stroke: .175px whitesmoke;
+        }
+
+        y:hover {
+            border: 3px double rgb(41, 41, 41) !important;
+            color: rgb(255, 31, 31);
+            -webkit-text-stroke: .175px whitesmoke;
+        }
+
+        x:hover {
+            border: 3px double rgb(41, 41, 41) !important;
+            color: rgb(255, 31, 31);
+            -webkit-text-stroke: .175px whitesmoke;
+        }
+
+        w:hover {
+            border: 3px double rgb(41, 41, 41) !important;
+            color: rgb(255, 31, 31);
+            -webkit-text-stroke: .175px whitesmoke;
+        }
+
+        myContact:hover {
+            color: rgb(255, 31, 31);
+            -webkit-text-stroke: .175px whitesmoke;
+            background-color: rgb(41, 41, 41);
         }
         
     </style>
@@ -169,10 +224,26 @@
             </div>
         </div>
         
-    <!-- Code for the main body panel -->
-     <div class="myBody">
-
+    <!-- Code for the FAQ panel -->
+     <div class="myFAQ">
+        <z><h2>Who is Ghostie?/Who made this awful/terrible/appalling/other synonyms website?</h2>
+        <h3>Ghostie can be said to be the pseudonym of a student who dedicates this website to her IST school assessment. The reason that the website is awful/terrible/appalling/other synonyms is because she does not know how to code well.</h3></z>
+        <y><h2>Why is there lots of loren ipsum?</h2>
+        <h3>This is because the student was regrettably too lazy to research about her website topic so she substituted it with loren ipsum.</h3></y>
+        <x><h2>Why is the favicon (the weird blushing laughing ghost picture on the tab) so stretched out/elongated?</h2>
+        <h3>This is because she fiddled with a few favicon-making websites but ended up incurring an headache, so she decided to quit with it by finding a random png image on Google.</h3></x>
+        <w><h2>What is the meaning of life?</h2>
+        <h3>"The meaning of life is reading FAQs on random no-name htmls on the meaning of life," a quote by teh author of this html.</h3></w>
         </div>
+
+    <!-- Code for the contact panel -->
+    <div class="margin">
+    <div class="myContact">
+        <h3><b>Phone no.:</b> 12 3456 7890</h3>
+        <h3><b>Email:</b> student.ghostie@gmail.com</h3>
+        <h3><b>Social Medias:</b> Search the name of StudentGhostie on Facebook, Twitter and Instagram. Ghostie can also be found on YouTube under the name Ghostie1234 which tells you about all the paranormal things that you think of under the sky, as well as those <em>above</em> the sky. aka aliens. Please subscribe!</h3>
+    </div>
+    </div>
     
     <!-- Code for the Ads panel -->
         <div>
