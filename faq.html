@@ -215,11 +215,23 @@
             -webkit-text-stroke: .175px whitesmoke;
             background-color: rgb(41, 41, 41);
         }
+
+        .scroll {
+            background-color: rgb(60, 60, 60);
+            display: grid;
+            grid: center;
+            padding-top: 3em;
+            padding-bottom: 3em;
+            padding-right: 30%;
+            padding-left: 30%;
+        }
         
     </style>
 
 <script>
-
+    function scrollWin() {
+      window.scrollTo(0, 0);
+    }
 </script>
 </head>
 <body>
@@ -267,6 +279,11 @@
         <h3><b>Email:</b> student.ghostie@gmail.com</h3>
         <h3><b>Social Medias:</b> Search the name of StudentGhostie on Facebook, Twitter and Instagram. Ghostie can also be found on YouTube under the name Ghostie1234 which tells you about all the paranormal things that you think of under the sky, as well as those <em>above</em> the sky. aka aliens. Please subscribe!</h3>
     </div>
+    </div>
+    
+    <!-- Code for the Scroll panel -->
+    <div class="scroll">
+        <button onclick="scrollWin()">Click me to scroll to the top</button>
     </div>
     
     <!-- Code for the Ads panel -->

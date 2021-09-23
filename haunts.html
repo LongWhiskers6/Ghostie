@@ -217,11 +217,23 @@
             -webkit-text-stroke: 1.3px whitesmoke;
             border: 3px solid rgb(255, 255, 255);
         }
+
+        .scroll {
+            background-color: rgb(60, 60, 60);
+            display: grid;
+            grid: center;
+            padding-top: 3em;
+            padding-bottom: 3em;
+            padding-right: 30%;
+            padding-left: 30%;
+        }
         
     </style>
 
 <script>
-
+    function scrollWin() {
+      window.scrollTo(0, 0);
+    }
 </script>
 </head>
 <body>
@@ -276,6 +288,11 @@
 
         </div>
     
+        <!-- Code for the Scroll panel -->
+        <div class="scroll">
+            <button onclick="scrollWin()">Click me to scroll to the top</button>
+            </div>
+
     <!-- Code for the Ads panel -->
         <div>
             <img src="Images/book.png.crdownload" alt="Advertisement" class="hi"> 

@@ -192,11 +192,23 @@
             border: 3px solid rgb(255, 255, 255);
         }
 
+        .scroll {
+            background-color: rgb(60, 60, 60);
+            display: grid;
+            grid: center;
+            padding-top: 3em;
+            padding-bottom: 3em;
+            padding-right: 30%;
+            padding-left: 30%;
+        }
+
     </style>
 
-    <script>
-
-    </script>
+<script>
+    function scrollWin() {
+      window.scrollTo(0, 0);
+    }
+</script>
 </head>
 <body>
     <div class="wrapper">
@@ -250,6 +262,11 @@
                 <h3>"The Distortion of Ghostly Myths and Tales in the West" by Harshnee Laghari and Johnathan Hak (2014) [educational film documentary]</h3>
                 <h3>"A Collection of Bone-chilling Horror" by Dolina Westbrook (2019) [e-book]</h3>
             <img src="Images/bloodybook.jpeg" alt="Bloodstained Book" class="centre">
+            </div>
+        
+        <!-- Code for the Scroll panel -->
+        <div class="scroll">
+            <button onclick="scrollWin()">Click me to scroll to the top</button>
             </div>
         
         <!-- Code for the Ads panel -->
